@@ -11,9 +11,9 @@
 	<detector name="experiments/clas12/targets/cad_rgm_new/"   factory="CAD" variation="default"/>
 	<!-- <detector name="geometry_source/targets/cad_rgm_new/"   factory="CAD" variation="default"/> -->
 	<!-- <detector name="experiments/clas12/targets/cad_rgm_new/"   factory="CAD" variation="rgm"/> -->
-	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="rgm_fall2021_C_v2_L"/>
-	<!-- <detector name="geometry_source/targets/target" factory="TEXT" variation="rgm_fall2021_C_v2_L"/> -->
-	<!-- <detector name="experiments/clas12/targets/target" factory="TEXT" variation="rgm_fall2021_C_v2_L"/> -->
+	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="rgm_fall2021_Ar"/>
+	<!-- <detector name="geometry_source/targets/target" factory="TEXT" variation="rgm_fall2021_Ar"/> -->
+	<!-- <detector name="experiments/clas12/targets/target" factory="TEXT" variation="rgm_fall2021_Ar"/> -->
 
 
 	<!-- central detectors 	-->
@@ -51,7 +51,8 @@
 
 
 	<!-- you can scale the fields here. Remember torus -1 means e- INBENDING  -->
-	<option name="SCALE_FIELD" value="binary_torus, +1"/>
+	<option name="SCALE_FIELD" value="binary_torus, -1"/>
+	<!-- <option name="SCALE_FIELD" value="binary_torus, +1"/> -->
 	<option name="SCALE_FIELD" value="binary_solenoid, -1"/>
 
 	<!-- hall field  -->
