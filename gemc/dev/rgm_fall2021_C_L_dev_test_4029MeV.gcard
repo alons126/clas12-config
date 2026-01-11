@@ -4,7 +4,7 @@
 	<!-- band detector upstream of the target -->
 	<detector name="experiments/clas12/band/band" factory="TEXT" variation="main"/>
 
-	<detector name="experiments/clas12/targets/target"    factory="TEXT" variation="rgm_fall2021_Sn_v2_L"/>
+	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="rgm_fall2021_C_L"/>
 	<detector name="experiments/clas12/targets/cad_short_cryocell/"   factory="CAD" variation="default"/>
 
 	<!-- central detectors 	-->
